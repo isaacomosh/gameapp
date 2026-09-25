@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gameapp/pages/add_game.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:iconsax/iconsax.dart';
 
@@ -44,6 +45,22 @@ class _HomeUIState extends State<HomeUI> {
                           child: Icon(
                             Iconsax.notification,
                             fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => AddGame(),
+                              ),
+                            );
+                          },
+                          child: Icon(
+                            Iconsax.add,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black,
                           ),
                         ),
                       ],
