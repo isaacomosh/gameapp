@@ -325,7 +325,7 @@ class _HomeUIState extends State<HomeUI> {
                           ClipRRect(
                             borderRadius: BorderRadius.circular(20),
                             child: Image.asset(
-                              "assets/games/gta6.jpg",
+                              "assets/games/crew2.jpg",
                               width: 190,
                               height: 190,
                               fit: BoxFit.cover,
@@ -353,7 +353,7 @@ class _HomeUIState extends State<HomeUI> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "Grand Theft Auto",
+                                  "Crew2",
                                   style: GoogleFonts.poppins(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
