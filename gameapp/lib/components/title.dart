@@ -12,7 +12,7 @@ class topTitle extends StatelessWidget {
       style: GoogleFonts.poppins(
         fontWeight: FontWeight.bold,
         color: Colors.black,
-        fontSize: 25,
+        fontSize: 29,
       ),
     );
   }

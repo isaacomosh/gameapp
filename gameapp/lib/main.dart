@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:gameapp/pages/on_boarding.dart';
+import 'package:gameapp/pages/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,9 +16,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: OnBoardingPage(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen());
   }
 }
