@@ -20,6 +20,7 @@ class Settings extends StatelessWidget {
             //username
             Text("Username"),
             Text("Password"),
+            Text("Change your user settings"),
           ],
         ),
       ),
