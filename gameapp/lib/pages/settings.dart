@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Settings extends StatelessWidget {
   const Settings({super.key});
@@ -10,7 +11,15 @@ class Settings extends StatelessWidget {
         child: Column(
           children: [
             //page title
-            Text("Setting"),
+            Text(
+              "Setting",
+              style: GoogleFonts.poppins(fontWeight: FontWeight.bold),
+            ),
+            //profile pic
+
+            //username
+            Text("Username"),
+            Text("Password"),
           ],
         ),
       ),
